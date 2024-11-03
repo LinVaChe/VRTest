@@ -19,10 +19,12 @@ public class NewBehaviourScript : MonoBehaviour
     void FixedUpdate()
     {
         x++;
-        if (x >= 100)
+        if (x >= 70)
         {
             Test.SetActive(false);
-            Mytxt.text = x.ToString();
         }
+        Mytxt.text = x.ToString();
     }
+
+
 }
